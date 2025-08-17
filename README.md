@@ -1,74 +1,33 @@
-# Computer Parts Management System
+📦 Computer Parts Management System
 
-A web-based Java application for managing computer parts inventory, orders, and customer inquiries.
+The Computer Parts Management System is a Java-based web application designed to manage computer hardware components efficiently. It provides functionality for tracking, adding, updating, and removing computer parts in a structured and user-friendly way.
 
-## Features
+✨ Features
 
-- **Product Management**: Browse and manage computer parts inventory
-- **Shopping Cart**: Add items to cart and manage orders
-- **Customer Management**: User registration and account management
-- **Order Processing**: Complete order workflow from cart to billing
-- **Inquiry System**: Customer support and feedback system
-- **Admin Panel**: Administrative functions for managing the system
+🔹 Add, edit, and delete computer parts
 
-## Technology Stack
+🔹 Search and filter components by category, brand, or specifications
 
-- **Backend**: Java Servlets, JSP
-- **Database**: MySQL
-- **Frontend**: HTML, CSS, JavaScript
-- **Server**: Apache Tomcat
+🔹 Inventory management with quantity tracking
 
-## Project Structure
+🔹 Secure user authentication and role-based access
 
-```
-ComParts_Website/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── Contact/          # Java servlets and database utilities
-│       └── webapp/
-│           ├── Images/           # Product images and assets
-│           ├── WEB-INF/          # Configuration and libraries
-│           └── *.jsp             # JSP pages for the web interface
-```
+🔹 Responsive web interface for smooth user experience
 
-## Setup Instructions
+🛠️ Tech Stack
 
-1. **Prerequisites**
-   - Java JDK 8 or higher
-   - Apache Tomcat 9 or higher
-   - MySQL Database
+Backend: Java, Servlet/JSP, JDBC
 
-2. **Database Setup**
-   - Create a MySQL database
-   - Import the database schema (contact the developer for schema details)
+Frontend: HTML, CSS, JavaScript, Bootstrap
 
-3. **Configuration**
-   - Update database connection settings in `DBConnect.java`
-   - Configure Tomcat server settings
+Database: MySQL (or any RDBMS of choice)
 
-4. **Deployment**
-   - Build the project using your preferred IDE
-   - Deploy to Tomcat server
-   - Access the application via web browser
+Server: Apache Tomcat
 
-## Usage
+🚀 Use Cases
 
-1. **Customer Registration/Login**: Users can create accounts or login
-2. **Browse Products**: View available computer parts
-3. **Shopping Cart**: Add items to cart and proceed to checkout
-4. **Order Management**: Track orders and view order history
-5. **Support**: Submit inquiries and feedback
+Computer shops for inventory tracking
 
-## Contributing
+IT departments managing spare parts
 
-This is a university assignment project. For questions or contributions, please contact the developer.
-
-## License
-
-This project is created for educational purposes as part of a university assignment.
-
-## Developer
-
-- **Name**: Kavindu03-dev
-- **GitHub**: [Kavindu03-dev](https://github.com/Kavindu03-dev)
+Educational purposes for learning web development with Java
